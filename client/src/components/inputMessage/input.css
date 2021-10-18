@@ -1,0 +1,30 @@
+.message-form-input {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+}
+.message-form-input textarea {
+  width: 70%;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+  padding: 1%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  border-radius: 4px;
+}
+.message-form-input button {
+  margin-left: 2%;
+  width: 20%;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid;
+  border-radius: 2px;
+  outline: none;
+  background: none;
+  transition: 0.2s;
+}
+.message-form-input button:hover {
+  transform: scale(1.1);
+}

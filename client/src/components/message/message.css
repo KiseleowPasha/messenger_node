@@ -1,0 +1,39 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 2%;
+  background-color: yellowgreen;
+  padding: 1%;
+  box-sizing: border-box;
+  width: 70%;
+}
+.message-delete {
+  width: 2.5%;
+  cursor: pointer;
+}
+.message-delete svg {
+  width: 100%;
+}
+.message-text {
+  margin: 0;
+}
+.message-author,
+.message-change {
+  font-size: 0.8rem;
+  margin: 0 0 0 auto;
+}
+.message-delete {
+  margin: 0 0 0 2%;
+}
+.message-me {
+  background-color: yellow;
+  margin: 0 0 2% auto;
+}
+.message-options {
+  display: flex;
+}
+.message-change {
+  cursor: pointer;
+}

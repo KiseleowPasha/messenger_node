@@ -1,0 +1,47 @@
+{
+  "name": "messenger_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "server": "webpack --mode production & node server/",
+    "start": "webpack --mode development",
+    "nodemon": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiseleowPasha/messenger_node.git"
+  },
+  "author": "Pavel Kiselyov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiseleowPasha/messenger_node/issues"
+  },
+  "homepage": "https://github.com/KiseleowPasha/messenger_node#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "body-parser": "^1.19.0",
+    "css-loader": "^6.2.0",
+    "express": "^4.17.1",
+    "history": "^5.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.4.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^5.3.0",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^5.52.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "webpack-cli": "^4.8.0"
+  }
+}
